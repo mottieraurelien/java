@@ -30,11 +30,15 @@ public final class Characters {
 
     static {
 
-        // TODO
         NOT_EASY_TO_SAY = new HashSet<>();
+        NOT_EASY_TO_SAY.addAll(FIGURES);
+        NOT_EASY_TO_SAY.addAll(SPECIAL_CHARACTERS);
 
-        // TODO
         NOT_EASY_TO_READ = new HashSet<>();
+        NOT_EASY_TO_READ.add("I");
+        NOT_EASY_TO_READ.add("l");
+        NOT_EASY_TO_READ.add("O");
+        NOT_EASY_TO_READ.add("0");
 
     }
 
